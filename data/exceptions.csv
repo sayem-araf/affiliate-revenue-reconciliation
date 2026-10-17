@@ -1,0 +1,32 @@
+partner_id,partner_name,vertical,category,record,amount_eur,currency,status,detail
+P1021,Meridian Trade,Trading,Duplicate / overpayment,PM5021,24023.93,USD,Unallocated residual,Invoice already settled; surplus receipt unallocated
+P1025,Quartz Exchange,FinTech,Currency exception,PM5025,6860.38,GBP,Awaiting resolution,Receipt in GBP against a USD invoice; left unallocated
+P1023,Onyx Trade,FinTech,Mismatched reference,PM5023,6553.38,GBP,Unallocated,"Payment references INV-2026-09-P1020, which belongs to another partner"
+P1036,Basalt Exchange,Trading,Currency exception,PM5034,3333.11,GBP,Awaiting resolution,Receipt in GBP against a USD invoice; left unallocated
+P1002,Nordic Trade,Crypto,Unmatched cash,PM5002,15988.89,GBP,Unallocated,Payment has no matching invoice reference
+P1012,Cobalt Markets,Trading,Unmatched cash,PM5013,4451.69,GBP,Unallocated,Payment has no matching invoice reference
+P1027,Solara Networks,iGaming,Overpayment,PM5028,853.45,EUR,Unallocated residual,Receipt exceeds invoice balance; surplus unallocated
+P1005,Quant Networks,FinTech,Currency exception,PM5005,5519.38,GBP,Awaiting resolution,Receipt in GBP against a USD invoice; left unallocated
+P1043,Iris Trade,FinTech,Overpayment,PM5039,322.1,USD,Unallocated residual,Receipt exceeds invoice balance; surplus unallocated
+P1026,Ridge Networks,Crypto,Duplicate / overpayment,PM5027,5805.79,EUR,Unallocated residual,Invoice already settled; surplus receipt unallocated
+P1005,Quant Networks,FinTech,Overdue invoice,INV-2026-09-P1005,4340.03,USD,Overdue 2d,Unpaid; 2d past due
+P1008,Summit Capital,iGaming,Partial payment,INV-2026-09-P1008,3223.68,EUR,Overdue 2d,Paid 12894.73 of 16118.41; balance 3223.68 outstanding
+P1010,Orion Exchange,Crypto,Partial payment,INV-2026-09-P1010,1235.3,GBP,Overdue 2d,Paid 3167.45 of 4223.26; balance 1055.81 outstanding
+P1011,Atlas Digital,iGaming,Partial payment,INV-2026-09-P1011,799.66,USD,Overdue 23d,Paid 3476.78 of 4345.98; balance 869.20 outstanding
+P1013,Ember Capital,FinTech,Partial payment,INV-2026-09-P1013,1161.89,USD,Overdue 44d,Paid 5051.69 of 6314.61; balance 1262.92 outstanding
+P1014,Fjord Labs,Trading,Billing discrepancy,INV-2026-09-P1014,2304.91,EUR,Review,Invoice 20744.19 does not match tracked revenue 23049.10
+P1015,Granite Media,Crypto,Awaiting payment,INV-2026-09-P1015,20850.17,EUR,Not due,Unpaid; due in 7d
+P1016,Helix Partners,Trading,Overdue invoice,INV-2026-09-P1016,12731.36,EUR,Overdue 1d,Unpaid; 1d past due
+P1020,Larus Group,FinTech,Overdue invoice,INV-2026-09-P1020,5675.72,EUR,Overdue 5d,Unpaid; 5d past due
+P1023,Onyx Trade,FinTech,Overdue invoice,INV-2026-09-P1023,6553.38,GBP,Overdue 2d,Unpaid; 2d past due
+P1025,Quartz Exchange,FinTech,Overdue invoice,INV-2026-09-P1025,5394.48,USD,Overdue 2d,Unpaid; 2d past due
+P1029,Umbra Media,Trading,Partial payment,INV-2026-09-P1029,4827.17,GBP,Open balance,Paid 6188.68 of 10314.47; balance 4125.79 outstanding
+P1030,Vega Media,Trading,Overdue invoice,INV-2026-09-P1030,3691.67,USD,Overdue 18d,Unpaid; 18d past due
+P1031,Willow Networks,Crypto,Overdue invoice,INV-2026-09-P1031,4205.75,USD,Overdue 39d,Unpaid; 39d past due
+P1034,Zephyr Capital,Trading,Overdue invoice,INV-2026-09-P1034,4774.12,USD,Overdue 77d,Unpaid; 77d past due
+P1035,Aurora Networks,Trading,Billing discrepancy,INV-2026-09-P1035,303.03,GBP,Review,Invoice 2417.30 does not match tracked revenue 2158.30
+P1036,Basalt Exchange,Trading,Overdue invoice,INV-2026-09-P1036,2620.91,USD,Overdue 2d,Unpaid; 2d past due
+P1037,Cirrus Media,FinTech,Awaiting payment,INV-2026-09-P1037,4622.5,EUR,Not due,Unpaid; due in 7d
+P1038,Dune Networks,FinTech,Billing discrepancy,INV-2026-09-P1038,1017.87,EUR,Review,Invoice 9160.80 does not match tracked revenue 10178.67
+P1040,Flint Partners,Crypto,Billing discrepancy,INV-2026-09-P1040,3146.52,USD,Review,Invoice 19380.71 does not match tracked revenue 22800.84
+P1042,Hollow Partners,iGaming,Overdue invoice,INV-2026-09-P1042,2912.17,EUR,Overdue 105d,Unpaid; 105d past due
