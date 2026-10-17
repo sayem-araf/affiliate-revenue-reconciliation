@@ -10,7 +10,7 @@ A working reconciliation prototype with a proposed path to integrated, AI assist
 
 ![Project architecture: implemented reconciliation prototype and proposed integrations and AI investigation](docs/architecture.png)
 
-![Reconciliation dashboard](docs/dashboard.png)
+![Dashboard overview: balances, ageing and sample exceptions](docs/dashboard-overview.png)
 
 The diagram shows how it works; the screenshot shows what is built.
 
