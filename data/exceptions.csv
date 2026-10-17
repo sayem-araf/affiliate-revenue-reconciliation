@@ -1,7 +1,7 @@
 partner_id,partner_name,vertical,category,record,amount_eur,currency,status,detail
 P1021,Meridian Trade,Trading,Duplicate / overpayment,PM5021,24023.93,USD,Unallocated residual,Invoice already settled; surplus receipt unallocated
 P1025,Quartz Exchange,FinTech,Currency exception,PM5025,6860.38,GBP,Awaiting resolution,Receipt in GBP against a USD invoice; left unallocated
-P1023,Onyx Trade,FinTech,Mismatched reference,PM5023,6553.38,GBP,Unallocated,"Payment references INV-2026-09-P1020, which belongs to another partner"
+P1023,Onyx Trade,FinTech,Mismatched reference,PM5023,6553.38,GBP,Unallocated,"Payment references INV-2026-09-P1042, which belongs to another partner"
 P1036,Basalt Exchange,Trading,Currency exception,PM5034,3333.11,GBP,Awaiting resolution,Receipt in GBP against a USD invoice; left unallocated
 P1002,Nordic Trade,Crypto,Unmatched cash,PM5002,15988.89,GBP,Unallocated,Payment has no matching invoice reference
 P1012,Cobalt Markets,Trading,Unmatched cash,PM5013,4451.69,GBP,Unallocated,Payment has no matching invoice reference

@@ -6,14 +6,15 @@ A working Python reconciliation prototype and dashboard for comparing partner co
 
 ## Run the demo
 
-Use Python 3.9 or later. The scripts use the Python standard library; no package installation or API key is required. Extract or clone the complete project, then run these commands from its root folder:
+Use Python 3.9 or later. The scripts use the Python standard library; no package installation or API key is required. Extract or clone the complete project, then run this from its root folder:
 
 ```bash
-python3 generate_and_reconcile.py
-python3 verify_demo.py
+python3 serve.py
 ```
 
-Open **index.html** in a browser. It is self-contained and needs no web server. The first command regenerates the synthetic data and dashboard; it does not import your own financial records. The reporting date is fixed at **17 October 2026**.
+This regenerates the synthetic data and dashboard, starts a local server at http://localhost:8000/index.html, and opens the dashboard in your browser. Press `Ctrl+C` in the terminal to stop it. It does not import your own financial records. The reporting date is fixed at **17 October 2026**.
+
+To run the output checks separately: `python3 verify_demo.py`.
 
 ## What is generated
 
@@ -51,7 +52,7 @@ Known limitations:
 - The exception table shows converted EUR amounts beside original currency codes; separate native and converted amount fields are a planned display correction.
 - Recommended actions, source-record drill-down and human review are proposed, not implemented.
 
-The earlier payment-matching review covered equal instalments, wrong references, partial payments and surplus receipts. Those checks are not yet packaged as a full automated regression suite. The fixed seed does not guarantee byte-identical files across processes because one generated reference is selected from an unordered set.
+Payment-matching scenarios include instalments, wrong references, partial payments and surplus receipts, but they are not yet packaged as a full automated regression suite. The fixed seed does not guarantee byte-identical files across processes because one generated reference is selected from an unordered set.
 
 ## Implementation details
 
@@ -70,4 +71,3 @@ The project uses standard-library Python for fixture generation, invoice-level p
 | Policy and audit records | Version contract and policy references; preserve reviewed decisions and approval history |
 
 Green shows the implemented prototype; grey sections show proposed extensions. The AI agent, live integrations, case lifecycle and approval history are design proposals. See [the detailed operational design](docs/DESIGN.md) for risks, controls, evidence, responsibilities and proposed measures.
-
